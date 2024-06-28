@@ -1,0 +1,19 @@
+.preview {
+    font-family: 'Urbanist', sans-serif;
+
+
+    &__content {
+        font-size: 1.2rem;
+        font-weight: 300;
+        padding: 20px;
+        background: $background-color-light;
+        border: none;
+        resize: none;
+    }
+
+    .react-markdown-render {
+        p {
+            margin: 0;
+        }
+    }
+}

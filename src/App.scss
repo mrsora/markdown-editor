@@ -1,0 +1,16 @@
+@import './assets/scss/globals.scss';
+
+*,
+*:after,
+*:before {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: $font-family;
+    margin: 0;
+    padding: 0;
+    background-color: $background-color-light;
+    height: 100vh;
+    overflow: hidden;
+}

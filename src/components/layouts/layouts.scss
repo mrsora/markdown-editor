@@ -1,0 +1,33 @@
+@import '/src/assets/scss/globals.scss';
+
+.mainLayout {
+    height: 100vh;
+    display: flex;
+
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: flex-start;
+
+    @include tablet {
+        flex-direction: row;
+    }
+
+
+    &__column {
+        width: 100%;
+        height: 50%;
+
+        @include tablet {
+            width: 50%;
+            height: 90%;
+            padding: 20px;
+        }
+    }
+
+    &__column:first-of-type {
+        @include tablet {
+            border-right: 2px solid $divider-color-light;
+        }
+    }
+}

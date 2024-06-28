@@ -1,0 +1,41 @@
+$background-color-light: #f5f5f5;
+$background-color-dark: #333;
+
+$divider-color-light: #e0e0e0;
+
+$font-family: 'Urbanist', sans-serif;
+$font-weight-light: 300;
+$font-weight-regular: 400;
+$font-weight-medium: 500;
+$font-weight-bold: 700;
+
+// display breakpoints
+$x-sm: 450px;
+$sm: 645px;
+$md: 860px;
+$lg: 1025px;
+$xl: 1441px;
+
+@mixin tablet {
+    @media (min-width: #{$sm}) {
+        @content;
+    }
+}
+
+@mixin laptop {
+    @media (min-width: #{$md}) {
+        @content;
+    }
+}
+
+@mixin desktop {
+    @media (min-width: #{$lg}) {
+        @content;
+    }
+}
+
+@mixin xl {
+    @media (min-width: #{$xl}) {
+        @content;
+    }
+}

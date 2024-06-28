@@ -1,0 +1,23 @@
+@import "/src/assets/scss/globals.scss";
+
+.titleBar {
+    // margin: 0 25px;
+    margin-bottom: 10px;
+
+    &__text {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        // margin: 0 50px;
+        padding: 0 20px;
+    }
+
+    &__title {
+        font-weight: $font-weight-bold;
+        font-size: 1.5em;
+    }
+
+    hr {
+        border: 1px solid $divider-color-light;
+    }
+}
