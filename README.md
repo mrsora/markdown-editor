@@ -15,7 +15,8 @@ A simple markdown renderer web application made using TypeScript and React + Vit
 ### How to run:
 
 1. clone repo
-2. npm run dev
+2. `npm install`
+3. `npm run dev`
 
 ---
 
